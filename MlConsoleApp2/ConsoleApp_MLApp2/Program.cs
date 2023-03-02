@@ -22,7 +22,7 @@ for (int i = 0; i < data_date.Length; i++)
     // Make a single prediction on the sample data and print results
     var predictionResult = MLModel1.Predict(sampleData);
 
-    Console.WriteLine($"\n\nПрогнозируемое количество за {data}: {predictionResult.Score}\n\n");
+    Console.WriteLine($"\n\nПрогнозируемое значение за {data}: {predictionResult.Score}\n\n");
     Console.WriteLine("=============== End of process, hit any key to finish ===============");
     Console.ReadKey();
 }
