@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MlConsoleApp2", "MlConsoleApp2\MlConsoleApp2.csproj", "{DB47F8F9-9EB1-4668-83B6-80406B67A1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_MLApp2", "ConsoleApp_MLApp2\ConsoleApp_MLApp2.csproj", "{06E44996-E958-47FB-99A8-E5E584C976EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB47F8F9-9EB1-4668-83B6-80406B67A1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB47F8F9-9EB1-4668-83B6-80406B67A1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB47F8F9-9EB1-4668-83B6-80406B67A1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB47F8F9-9EB1-4668-83B6-80406B67A1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E44996-E958-47FB-99A8-E5E584C976EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E44996-E958-47FB-99A8-E5E584C976EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E44996-E958-47FB-99A8-E5E584C976EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E44996-E958-47FB-99A8-E5E584C976EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAAC0959-6DEF-40BA-B265-02EE9F95ADB1}
+	EndGlobalSection
+EndGlobal
