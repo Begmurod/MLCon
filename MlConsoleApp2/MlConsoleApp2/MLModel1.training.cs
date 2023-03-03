@@ -37,7 +37,7 @@ namespace MlConsoleApp2
             var pipeline = mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"Date",outputColumnName:@"Date")      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"Date"}))      
                                     .Append(mlContext.Transforms.NormalizeMinMax(@"Features", @"Features"))      
-                                    .Append(mlContext.Regression.Trainers.LbfgsPoissonRegression(new LbfgsPoissonRegressionTrainer.Options(){L1Regularization=1F,L2Regularization=1F,LabelColumnName=@"Value",FeatureColumnName=@"Features"}));
+                                    .Append(mlContext.Regression.Trainers.LbfgsPoissonRegression(new LbfgsPoissonRegressionTrainer.Options(){L1Regularization=0.03125F,L2Regularization=0.1446503F,LabelColumnName=@"Value",FeatureColumnName=@"Features"}));
 
             return pipeline;
         }
